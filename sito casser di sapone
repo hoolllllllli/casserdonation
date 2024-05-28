@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donazioni per il Progetto Veicolo Cassa di Sapone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Colore blu chiaro */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #1e90ff; /* Colore blu */
+            height: 100vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 4px #000;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0.5em 0;
+        }
+        header p {
+            font-size: 1.5em;
+        }
+        .donation-section {
+            background-color: #1e90ff; /* Colore blu */
+            padding: 2em 0;
+            color: white;
+        }
+        .donation-section h2 {
+            font-size: 2em;
+        }
+        .donation-section form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .donation-section input, .donation-section button {
+            padding: 1em;
+            margin: 0.5em 0;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+        }
+        .donation-section button {
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+        }
+        .donation-section button:hover {
+            background-color: #555;
+        }
+        footer {
+            padding: 1em 0;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Supporta il Nostro Progetto</h1>
+        <p>Aiutaci a finanziare il nostro veicolo cassa di sapone</p>
+    </header>
+    <section class="donation-section">
+        <h2>Fai una Donazione</h2>
+        <form>
+            <input type="number" placeholder="Importo (€)" required>
+            <input type="email" placeholder="La tua email" required>
+            <button type="submit">Dona Ora</button>
+        </form>
+    </section>
+    <footer>
+        <p>Contattaci: +39 123 456 789</p>
+    </footer>
+</body>
+</html>
